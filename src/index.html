@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
-    <title>TailwindCSS入門</title>
+    <title>TailwindCSS練習用サイト</title>
+      <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div class="border border-blue-400 p-16 my-10">
-      <h1 class="lg:text-7xl font-bold text-3xl sm:text-red-400 md:text-blue-400 lg:text-pink-400 xl:text-green-400">TailwindCSS入門</h1>
-    </div>
-    <div class="border border-blue-400 p-16 my-10">
-      <h1 class="text-7xl font-bold">TailwindCSS入門</h1>
-    </div>
-
-    <button class="easy-button">ボタン</button>
-    <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded ml-10">ボタン</button>
-    <button class="btn-blue btn-blue:hover btn">ボタン</button>
+  <body class="font-poppins bg-main-bg text-white">
+      <!-- ナビゲーションバー -->
+       <header class="py-6">
+        <div class="container mx-auto flex justify-between items-center px-8 md:px-14 w-full">
+          <div>Shincode.com</div>
+          <div>
+            <a href="#home">ホーム</a>
+            <a href="#portfolip">ポートフォリオ作成</a>
+            <a href="#clients">お客様</a>
+            <a href="#contact"><button>お問い合わせ</button></a>
+          </div>
+        </div>
+       </header>
   </body>
 </html>
