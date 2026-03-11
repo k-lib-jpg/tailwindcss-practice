@@ -6,6 +6,7 @@
   --color-selected-text: #A3A3FF;
   --color-theme-bg: #5c318c;
   --color-secondary: #9191A4;
+  --color-badge:#3F3F51
 }
 
 .secondary-title {
@@ -19,4 +20,8 @@
 
 .section-paragraph {
   @apply text-secondary my-6 w-full max-w-3xl;
+}
+
+.badge {
+  @apply px-4 py-2 text-sm bg-badge;
 }
