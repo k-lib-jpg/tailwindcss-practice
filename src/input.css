@@ -6,7 +6,14 @@
   --color-selected-text: #A3A3FF;
   --color-theme-bg: #5c318c;
   --color-secondary: #9191A4;
-  --color-badge:#3F3F51
+  --color-badge:#3F3F51;
+  --color-inputBorder:#565666;
+  --color-input:#2A2A33;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
 }
 
 .secondary-title {
